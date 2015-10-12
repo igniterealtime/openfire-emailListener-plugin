@@ -1,4 +1,3 @@
-<%@ page contentType="text/html; charset=UTF-8" %>
 <%--
   - Copyright (C) 2005-2008 Jive Software. All rights reserved.
   -
@@ -16,7 +15,7 @@
 --%>
 
 <%@ page import="org.jivesoftware.openfire.plugin.emailListener.EmailListener,
-                 org.jivesoftware.util.ParamUtils"
+				 org.jivesoftware.util.ParamUtils"
 %>
 <%@ page import="org.jivesoftware.util.StringUtils" %>
 <%@ page import="java.util.HashMap" %>
@@ -145,8 +144,8 @@ IM when new messages were detected. Messages are not deleted from the mail serve
     <table cellpadding="0" cellspacing="0" border="0">
     <tbody>
         <tr>
-            <td class="jive-icon"><img src="/images/success-16x16.gif" width="16" height="16" border="0" alt=""></td>
-            <td class="jive-icon-label">Settings updated successfully.</td>
+        	<td class="jive-icon"><img src="/images/success-16x16.gif" width="16" height="16" border="0" alt=""></td>
+        	<td class="jive-icon-label">Settings updated successfully.</td>
         </tr>
     </tbody>
     </table>
@@ -160,8 +159,8 @@ IM when new messages were detected. Messages are not deleted from the mail serve
     <table cellpadding="0" cellspacing="0" border="0">
     <tbody>
         <tr>
-            <td class="jive-icon"><img src="/images/success-16x16.gif" width="16" height="16" border="0" alt=""></td>
-            <td class="jive-icon-label">Test was successful.</td>
+        	<td class="jive-icon"><img src="/images/success-16x16.gif" width="16" height="16" border="0" alt=""></td>
+        	<td class="jive-icon-label">Test was successful.</td>
         </tr>
     </tbody>
     </table>
@@ -188,8 +187,8 @@ IM when new messages were detected. Messages are not deleted from the mail serve
     <table cellpadding="0" cellspacing="0" border="0">
     <tbody>
         <tr>
-            <td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
-            <td class="jive-icon-label">Please specify the SMTP server to use.</td>
+        	<td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
+        	<td class="jive-icon-label">Please specify the SMTP server to use.</td>
         </tr>
     </tbody>
     </table>
@@ -201,8 +200,8 @@ IM when new messages were detected. Messages are not deleted from the mail serve
     <table cellpadding="0" cellspacing="0" border="0">
     <tbody>
         <tr>
-            <td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
-            <td class="jive-icon-label">Please specify the port to use to connect to the SMTP server.</td>
+        	<td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
+        	<td class="jive-icon-label">Please specify the port to use to connect to the SMTP server.</td>
         </tr>
     </tbody>
     </table>
@@ -214,8 +213,8 @@ IM when new messages were detected. Messages are not deleted from the mail serve
     <table cellpadding="0" cellspacing="0" border="0">
     <tbody>
         <tr>
-            <td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
-            <td class="jive-icon-label">Please specify the user to use to connect to the SMTP server.</td>
+        	<td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
+        	<td class="jive-icon-label">Please specify the user to use to connect to the SMTP server.</td>
         </tr>
     </tbody>
     </table>
@@ -227,8 +226,8 @@ IM when new messages were detected. Messages are not deleted from the mail serve
     <table cellpadding="0" cellspacing="0" border="0">
     <tbody>
         <tr>
-            <td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
-            <td class="jive-icon-label">Please specify the password to use to connect to the SMTP server.</td>
+        	<td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
+        	<td class="jive-icon-label">Please specify the password to use to connect to the SMTP server.</td>
         </tr>
     </tbody>
     </table>
@@ -240,8 +239,8 @@ IM when new messages were detected. Messages are not deleted from the mail serve
     <table cellpadding="0" cellspacing="0" border="0">
     <tbody>
         <tr>
-            <td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
-            <td class="jive-icon-label">Please specify the folder to use in the SMTP server.</td>
+        	<td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
+        	<td class="jive-icon-label">Please specify the folder to use in the SMTP server.</td>
         </tr>
     </tbody>
     </table>
@@ -253,8 +252,8 @@ IM when new messages were detected. Messages are not deleted from the mail serve
     <table cellpadding="0" cellspacing="0" border="0">
     <tbody>
         <tr>
-            <td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
-            <td class="jive-icon-label">Please specify the frequency to check for new messages.</td>
+        	<td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
+        	<td class="jive-icon-label">Please specify the frequency to check for new messages.</td>
         </tr>
     </tbody>
     </table>
@@ -266,8 +265,8 @@ IM when new messages were detected. Messages are not deleted from the mail serve
     <table cellpadding="0" cellspacing="0" border="0">
     <tbody>
         <tr>
-            <td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
-            <td class="jive-icon-label">Please specify one or more users that will get the notifications.</td>
+        	<td class="jive-icon"><img src="/images/error-16x16.gif" width="16" height="16" border="0" alt=""></td>
+        	<td class="jive-icon-label">Please specify one or more users that will get the notifications.</td>
         </tr>
     </tbody>
     </table>
@@ -280,19 +279,19 @@ IM when new messages were detected. Messages are not deleted from the mail serve
 <!-- BEGIN SMTP settings -->
 <form action="email-listener.jsp" name="f" method="post">
 
-    <div class="jive-contentBoxHeader">
-        Email listener settings
-    </div>
-    <div class="jive-contentBox">
-        <table width="80%" cellpadding="3" cellspacing="0" border="0">
-        <tr>
-            <td width="30%" nowrap>
-                Mail Host:
-            </td>
-            <td nowrap>
-                <input type="text" name="host" value="<%= (host != null)?host:"" %>" size="40" maxlength="150">
-            </td>
-        </tr>
+	<div class="jive-contentBoxHeader">
+		Email listener settings
+	</div>
+	<div class="jive-contentBox">
+		<table width="80%" cellpadding="3" cellspacing="0" border="0">
+		<tr>
+			<td width="30%" nowrap>
+				Mail Host:
+			</td>
+			<td nowrap>
+				<input type="text" name="host" value="<%= (host != null)?host:"" %>" size="40" maxlength="150">
+			</td>
+		</tr>
         <tr>
             <td nowrap>
                 Mail Port:
@@ -309,30 +308,30 @@ IM when new messages were detected. Messages are not deleted from the mail serve
                 <input type="checkbox" name="ssl"<%= (ssl) ? " checked" : "" %>>
             </td>
         </tr>
-        <tr>
-            <td nowrap>
-                Server Username:
-            </td>
-            <td nowrap>
-                <input type="text" name="server_username" value="<%= (username != null) ? username : "" %>" size="40" maxlength="150">
-            </td>
-        </tr>
-        <tr>                               
-            <td nowrap>
-                Server Password:
-            </td>
-            <td nowrap>
-                <input type="password" name="server_password" value="<%= (password != null) ? StringUtils.hash(password) : "" %>" size="40" maxlength="150">
-            </td>
-        </tr>
-        <tr>
-            <td nowrap>
-                Folder:
-            </td>
-            <td nowrap>
+		<tr>
+			<td nowrap>
+				Server Username:
+			</td>
+			<td nowrap>
+				<input type="text" name="server_username" value="<%= (username != null) ? username : "" %>" size="40" maxlength="150">
+			</td>
+		</tr>
+		<tr>                               
+			<td nowrap>
+				Server Password:
+			</td>
+			<td nowrap>
+				<input type="password" name="server_password" value="<%= (password != null) ? StringUtils.hash(password) : "" %>" size="40" maxlength="150">
+			</td>
+		</tr>
+		<tr>
+			<td nowrap>
+				Folder:
+			</td>
+			<td nowrap>
                 <input type="text" name="folder" value="<%= (folder != null) ? folder : "Inbox" %>" size="40" maxlength="150">
-            </td>
-        </tr>
+			</td>
+		</tr>
         <tr>
             <td nowrap>
                 Check Frequency (millis):
@@ -350,8 +349,8 @@ IM when new messages were detected. Messages are not deleted from the mail serve
                 <textarea name="users" cols="40" rows="3" wrap="virtual"><%= users%></textarea>
             </td>
         </tr>
-        </table>
-    </div>
+		</table>
+	</div>
 
 <input type="submit" name="save" value="Save">
 <input type="submit" name="test" value="Test Settings">
